@@ -1,0 +1,186 @@
+/* CONTATO */
+.contato{
+    color: #FFF;
+    min-height: calc(100vh - 175px);    
+    width: 100%;        
+}
+.areaHeader-title{
+    width: 100%;
+    color: var(--primary-color);
+    text-shadow: 0.1em 0em 0.152rem #ffffffea;
+}
+.area-cards-contato{
+    width: 100%;
+    padding: 1rem;     
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.area-cards-contato 
+.card-contato-left,
+.card-contato-right{
+   width: 100%;
+   min-height: 285px;
+   padding: 1em;
+   border-radius: 1rem;   
+   border: 1px solid var(--links);
+}
+.card-contato-right{
+    margin-bottom: .5rem;
+}
+.title-card-left{
+    color: var(--primary-color);
+    text-shadow: 0.1em 0em 0.12rem #000000ea;
+    text-transform: uppercase;   
+ }
+ .textos-contato{
+    font-size: .9rem;
+    line-height: 1rem;
+ }
+ .face a{
+    color: var(--white);
+    margin-bottom: .5rem;
+ }
+ .bi-telephone{
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+ }
+ .bi-envelope{
+    margin-top: -.2rem;
+    margin-bottom: 1rem;
+ }
+ .textos-footer-contato,
+ .txt-email,
+ .textos-contato
+ {
+    font-size: .7rem;
+ }
+ ::placeholder{
+    font-size: 13px;
+ }
+ .btn-outline-info{
+    color: var(--white);
+    transition: .1s;
+ }
+ .btn-outline-info:hover{
+    background-color: #00a6d9;
+    color: #ffffff;
+    font-weight: 600;
+ }
+ .txtnome:focus,
+ .txtemail:focus,
+ .txtarea:focus{
+    color: #979797; 
+ }
+ .txtarea{
+    height: 165px;
+ }
+ .copyright{
+   margin-top: -.4rem;
+ }
+ .areaimgwhats{
+   position: absolute;
+   bottom: 3rem;
+   right: 188px;
+   width: 70px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.areaimgwhats .imgWhats{
+   width: 45px;
+   height: 45px;
+   margin-bottom: 1rem;
+   margin-left: 8rem;
+} 
+.areaMsg{
+   position: absolute;
+   bottom: 8rem;
+   right: 9.6rem;
+   padding: .3rem;
+   font-size: .7rem;
+   color: #ffffffe2;
+   background-color: #63636338;   
+   display: none;
+}
+ @media (min-width:580px) {
+    .textos-contato{
+       font-size: 1rem;
+    }
+    .icon{
+        font-size: 1.8rem !important;
+        margin-right: 10px !important;
+    }
+    .txtredesocial{
+        margin-top: 10px;
+    }
+    .txt-email{
+        font-size: 1.1rem !important;
+        margin-top: .3rem;
+    }
+    .textos-footer-contato{
+        font-size: 1.1rem !important;
+    }
+    .txtdesenv{
+        font-size: .8rem !important;
+    }
+ } 
+ @media screen and (min-width:768px){
+   .areaimgwhats .imgWhats{        
+       margin-right: -16rem;
+       margin-top: 2rem;
+   }
+} 
+ @media (min-width:1000px) {
+    .area-cards-contato{
+        flex-direction: row;
+        margin-top: 5rem;
+    }
+    .card-contato-left, .card-contato-right{
+        max-width: 50%;        
+    }    
+    .imglogocontato{
+        margin-left: -4rem;
+    }      
+ }
+ @media (min-width:1020px) {
+    .area-cards-contato{       
+        margin-top: 3rem;
+    }   
+    .card-contato-left, .card-contato-right{
+       height: 500px;       
+    } 
+    .face, .tel{
+        margin-bottom: 1.5rem;
+    }
+    .txtdesenv{
+        font-size: .9rem !important;        
+    }
+ }
+ @media (max-width:1300px) {   
+    .imglogocontato{
+        margin-left: .2rem;
+    }    
+ }
+ @media (min-width:1400px) {
+    .btnenviar{       
+       padding: .7rem;
+    }   
+    input{
+        margin-bottom: 1.5rem;
+    }
+    .imglogocontato{
+        margin-left: 1rem;
+    }
+    .areaimgwhats .imgWhats{        
+      margin-left: 5rem;
+    }      
+ }
+ @media (min-width:1700px) {    
+    .areaimgwhats .imgWhats{        
+      margin-left: -8rem;
+    }      
+ }
+/* FIM CONTATO */

@@ -1,0 +1,79 @@
+/* SERVICOS */
+.servicos{
+    color: #FFF;
+    min-height: calc(100vh - 175px);
+}
+.texto-servicos{
+    text-align: justify;
+}
+.card-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid #bbbbbb;
+    transition: transform 0.25s ease-in-out;
+    border-radius: 10px;   
+}
+.card-servicos:hover{
+    transform: scale(1.02);
+    box-shadow: 0.3em 0.3em var(--primary-color);  
+    cursor: pointer; 
+ }
+.card-title{
+    margin-bottom: -1rem;
+    color: var(--primary-color);
+    text-shadow: 0.1em 0em 0.152rem #000000ea;    
+}
+.nav-bar-servicos{
+    margin-right: 2rem;
+}
+.modal-title{
+    color: var(--primary-color);
+    text-shadow: 0.1em 0em 0.12rem #000000ea;   
+}
+.areaHeader-title{
+    margin-top: .5rem;
+    width: 100%;
+    color: var(--primary-color);
+    text-shadow: 0.1em 0em 0.152rem #ffffffea;
+}
+@media screen and (max-width:991px){
+    .imglogoservicos{
+        margin-left: -1rem;
+    }
+    .navbar-toggler-icon{
+        margin-right: -4rem;
+    }
+}
+@media screen and (min-width:992px){
+    .navbar{
+        height: 75px;
+        position: relative;
+        margin-left: 5rem;  
+    }
+    .imglogoservicos{
+        margin-left: -4rem;
+    }   
+    .navbar-nav{
+        margin-left: 285px;
+    }
+}
+@media screen and (max-width:1999px){    
+    .card-text{
+        margin-top: 2rem;
+    }     
+}
+@media screen and (min-width:1200px){
+   .area-cards-servicos {      
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      margin-bottom: -2rem;
+   }
+   .card-servicos{
+      padding: .2rem;
+   }
+}
+/* FIM SERVICOS */

@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    textarea:focus, 
+    textarea.form-control:focus, 
+    input.form-control:focus, 
+    input[type=text]:focus, 
+    input[type=password]:focus, 
+    input[type=email]:focus, 
+    input[type=number]:focus, 
+    [type=text].form-control:focus, 
+    [type=password].form-control:focus, 
+    [type=email].form-control:focus, 
+    [type=tel].form-control:focus, 
+    [contenteditable].form-control:focus {
+        box-shadow: inset 0 -1px 0 #ddd;
+        outline: none;
+        border: none;
+    }
+}
+:root {   
+    --primary-color   : #37ccfd;  
+    --white           : #FFF; 
+    --links           : #e0e0e0;
+    --bg-header       : #222222;
+    --cor-textos      : rgba(0, 0, 0, 87);    
+}
+html {
+    position: relative;
+    min-height: 100vh;
+}
+body{
+    background-color    :var(--bg-header);
+    font-family         : 'Poppins', sans-serif;
+    margin-bottom       : 70px;
+    width               : 100vw;
+    min-height          : calc(100vh - 175px);
+    animation           : mudarbg 20s infinite;
+    background-image    : url('../assets/images/home/bg1.webp');
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    background-position : center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height : calc(100vh - 175px);
+}
+.custom-toggler {
+    border: none !important;
+    outline: none !important;   
+}
+.custom-toggler:focus {
+    box-shadow: none !important;    
+}
+.imglogo,.imglogohome,.imglogovideos,.imglogoempresa,.imglogoservicos,.imglogofotos,.imglogocontato{
+    width: 75px;
+    height: 75px;
+}
+.navbar{
+    height: 75px;
+    position: relative;
+    background-color: transparent;    
+}
+ul li a.active{
+    color: var(--primary-color) !important;
+}
+.navbar-nav li a:hover,
+a.active
+{
+    color: var(--primary-color) !important;
+    transition: .3s;
+}
+a{
+    text-decoration: none;  
+    color: var(--primary-color);
+}
+.nav-link{
+    color: var(--links);
+}
+footer{
+    position: absolute;    
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.titlefooter, .msg-footer{
+    color: var(--links);
+}
+.msg-footer{
+    font-size: .6rem;    
+}
+.botao{
+   width: 160px;
+   height: 45px;
+   border: none;
+   cursor: pointer;
+   font-weight: 500;
+   border-radius: 6px;
+}
+.btnBlue{    
+   background-color: var(--primary-color); 
+   margin-right: 0.1rem;
+}
+.btnBlue a{
+    color: var(--white); 
+}
+.btnBlue:hover{
+   background-color: #1989c2;   
+}
+.btnWhite:hover{
+   color: var(--white);  
+   background-color: #ababab; 
+}
+.btnWhite a{
+    color: var(--black); 
+}
+.gerente{
+    color: var(--primary-color);
+}
+@media screen and (max-width:1027px) {
+    .imglogo{
+        width  : 65px;
+        height : 65px;
+    }
+}
+@media screen and (min-width:1010px) {
+    .navbar-nav{
+        position: absolute;
+        right: 0;
+    }
+}
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; /* Largura total menos a margem do cabeçalho */        
+        text-align: center;
+        background-color: #343a40; /* Cor de fundo do menu mobile */
+        z-index: 1000; /* Para garantir que o menu apareça sobre outros elementos */
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px; /* Espaçamento para acomodar a altura da logo */
+    }
+
+    .navbar-brand {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        z-index: 1001; /* Para garantir que a logo apareça sobre o menu */
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        z-index: 1002; /* Para garantir que o botão toggle apareça sobre a logo */
+    }
+}
+/* COOKIES */
+.cookie-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 2px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 999; /* Garante que a caixa apareça sobre todos os outros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cookie-container.hide{
+    display: none;    
+}
+.cookie-container p {
+    margin: 0; 
+    text-align: justify;   
+}
+.cookie-container .areaMsg{
+    /* background-color: rgb(0, 170, 255); */
+    width: 70%;
+    padding:  0 5px;
+}
+.cookie-container .areaBotaoCookie{
+    padding: 4.5rem 0;
+    width: 30%;
+    align-items: center;
+    justify-content: center;    
+}
+.cookie-container .areaBotaoCookie .btnAceitarCookies{
+    color: var(--white);  
+    width: 28%;
+    height: 90px;
+    position: absolute;
+    top: 0;    
+    right: 0;
+    margin-top: .7rem;
+    margin-right: .3rem;
+    background-color: var(--primary-color);
+}
+@media screen and (min-width:320px){
+    .cookie-container {
+        display: flex;
+        flex-direction: column; 
+        padding: 0px;
+        max-height: 130px;
+        align-items: center;
+        justify-content: center;
+        /* background-color: red;  */        
+    }
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{      
+        width: 23%;  
+        height: 35px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        font-size: 12px;
+    }
+    .cookie-container p {
+        font-size: 12px;  
+        text-align: left; 
+        margin-right: 2rem;
+    }
+    .cookie-container .areaMsg{
+        /* background-color: #1989c2; */
+        margin-top: 9rem;
+        margin-right: 5rem;
+    }
+}
+@media screen and (min-width:360px){
+    .cookie-container {
+        max-height: 100px;
+    }
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{  
+        margin-right: 1.3rem;  
+        margin-top: 2rem; 
+    } 
+}
+@media screen and (min-width:450px){
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{      
+        width: 15%;  
+        margin-right: 2rem;   
+    }   
+}
+@media screen and (min-width:500px){    
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{ 
+        margin-top: 2.3rem;   
+    } 
+    .cookie-container .areaMsg p{        
+        margin-right: 6rem;
+    }
+}
+@media screen and (min-width:700px){
+    .cookie-container {      
+        max-height: 80px;
+    }    
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{ 
+        margin-top: 1.5rem;   
+    }    
+}
+@media screen and (min-width:1040px){
+    .cookie-container{  
+        max-height: 70px;           
+    }
+    .cookie-container .areaMsg{
+        margin-right: 12rem;
+    }
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{  
+        width: 10%;
+        margin-top: 1rem;  
+        margin-right: 4rem;             
+    }    
+}
+@media screen and (min-width:1300px){
+    .cookie-container .areaBotaoCookie .btnAceitarCookies{         
+        width: 8%;       
+    }
+    .cookie-container .areaMsg{
+        margin-right: 16rem;
+    }
+}
+/* FIM COOKIES */

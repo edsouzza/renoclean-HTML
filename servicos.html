@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A melhor no segmento em limpeza de tapetes e carpetes do Brasil, sempre honrando e atendendo com eficiência conheça-nos e seja feliz.">
+    
+    <!-- Open Graph data Facebook -->
+    <meta property="fb:admins"      content="100004317795963" />
+    <meta property="og:title"       content="Renavadora Renoclean">
+    <meta property="og:type"        content="article">
+    <meta property="og:url"         content="https://www.renovadorarenoclean.com.br/">
+    <meta property="og:image"       content="https://www.renovadorarenoclean.com.br/assets/images/baner-face.webp">
+    <meta property="og:description" content="Em se tratando de limpeza de tapetes, carpetes e cortinas da região, simplesmente a melhor.">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS / JS -->
+    <link   rel="stylesheet" href="vendors/bootstrap-5.3.3/css/bootstrap.min.css">
+    <link   rel="stylesheet" href="css/servicos.css">
+    <link   rel="stylesheet" href="css/style.css">
+
+    <script src="js/Servicos.js"     defer></script>     
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js" defer></script>
+    <script src="vendors/bootstrap-5.3.3/js/bootstrap.bundle.min.js" defer></script>
+    
+    <title>Renovadora Renoclean</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header py-1 mt-2">
+        <div class="container wrapper">            
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg navbar-dark nav-bar-servicos">
+                    <a class="navbar-brand" href="/">
+                        <img src="assets/images/logo.webp" alt="logo" class="imglogoservicos">
+                    </a>
+                    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="empresa.html">Empresa</a>
+                            </li>                      
+                            <li class="nav-item">
+                                <a class="nav-link active" href="servicos.html">Serviços</a>
+                            </li>                      
+                            <li class="nav-item">
+                                <a class="nav-link" href="fotos.html">Fotos</a>
+                            </li>                      
+                            <li class="nav-item">
+                                <a class="nav-link" href="videos.html">Vídeos</a>
+                            </li>                      
+                            <li class="nav-item">
+                                <a class="nav-link" href="contato.html">Contato</a>
+                            </li>                      
+                            <li class="nav-item">
+                                <a class="nav-link" href="/assets/pdf/Politica-de-Cookies.pdf" target="_blank" rel="noreferrer noopener">Política</a>
+                            </li>                      
+                        </ul>                    
+                    </div>                
+            </nav>
+        <!-- FIM NAVBAR -->
+        </div>
+        <!-- FIM CONTAINER -->
+    </header>
+    <!-- FIM HEADER -->
+
+    <!-- MAIN -->
+    <main>
+        <div class="container servicos mt-2 p-5 justify-content-center align-items-center ">
+            <div class="row areaHeader">                
+                <div class="col areaHeader-Servicos">
+                    <h2 class="areaHeader-title text-center text-uppercase pb-3 mb-4">nossos serviços</h2>
+                    <p class="texto-servicos pb-2 mb-4">
+                        Precisando de limpeza e higienização especializada para estofados, cortinas, 
+                        poltronas, sofás, cadeiras, colchões, carpetes, tapetes, divisórias e veículos 
+                        com excelência na qualidade do serviço, segurança e responsabilidade de quem 
+                        esta no ramo a mais de 10 anos? Você esta no lugar certo... conheça aqui um 
+                        pouco mais da Renovadora Renoclean. Executamos tudo no local, sendo assim 
+                        você pode acompanhar todo o procedimento de limpeza. Nossos equipamentos são 
+                        de uso exclusivo e passam por rigorosos testes antes de qualquer demanda, você
+                        não  vai  se  arrepender nos procure agora .
+                    </p>
+                </div> 
+            </div> 
+            
+            <div class="row areaFooter">
+                <div class="col area-cards-servicos">                            
+                    <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4 g-4 ">
+
+                        <div class="col" >                            
+                          <div class="card-servicos h-100 py-2" onclick="displayImage(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="assets/images/servicos/servico1.webp" alt="serviço 1" class="img-fluid mb-4 px-1">
+                            <div class="card-body">
+                              <h5 class="card-title text-center text-uppercase">Sofás</h5>
+                              <p class="card-text text-center mb-4 p-1">Tratamento único em qualidade para sofás e estofados ficarem clean e sem ácaros. Todos os serviços são executados no local.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card-servicos h-100 py-2" onclick="displayImage(1)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="assets/images/servicos/servico2.webp" alt="serviço 2" class="img-fluid mb-4 px-1" >
+                            <div class="card-body">
+                              <h5 class="card-title text-center text-uppercase">Colchões</h5>
+                              <p class="card-text text-center mb-4 p-1">Qualidade de vida com um sono renovador livre de impurezas, ácaros e fungos. Todos os nossos serviços são executados no local.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card-servicos h-100 py-2" onclick="displayImage(2)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="assets/images/servicos/servico3.webp" alt="serviço 3" class="img-fluid mb-4 px-1" >
+                            <div class="card-body">
+                              <h5 class="card-title text-center text-uppercase">Carpetes</h5>
+                              <p class="card-text text-center mb-4 p-1">Método inovador na remoção de ácaros, limpeza de carpetes com total segurança. Todos os serviços são executados no local.</p>
+                            </div>
+                          </div>
+                        </div>    
+
+                        <div class="col">
+                          <div class="card-servicos h-100 py-2" onclick="displayImage(3)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="assets/images/servicos/servico4.webp" alt="serviço 4" class="img-fluid mb-4 px-1" >
+                            <div class="card-body">
+                              <h5 class="card-title text-center text-uppercase">Cortinas</h5>
+                              <p class="card-text text-center mb-4 p-1">Suas cortinas impecáveis com a cor natural sem manchas ou avarias.Todos os nossos serviços são executados no local.</p>
+                            </div>
+                          </div>
+                        </div>      
+                   </div> 
+                </div> 
+            </div> 
+                      
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" aria-hidden="true" aria-labelledby="exampleModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">      
+                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span id="nameService"></span></h1>       
+                            <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">                    
+                            <!-- SRC E ALT DESSA IMAGEM DEVERAO SER PASSADOS POR PARAMETRO DINAMICAMENTE -->
+                            <img class="img-fluid mb-4 px-1" id="srcService">
+                        </div>                    
+                    </div>
+                </div>
+            </div>            
+            <!-- Fim Modal -->          
+
+        </div>
+    
+    </main>
+    <!-- FIM MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="text-muted">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center g-3 titlefooter">
+                    <b class="titlefooter">&copy; 2024 - Renovadora Renoclean</b>
+                    <p class="msg-footer">
+                        Excelência em limpeza e no atendimento! <br>
+                        edsouzza@hotmail.com            
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </footer>
+    <!-- FIM FOOTER -->
+</body>
+</html>
