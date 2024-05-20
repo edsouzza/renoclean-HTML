@@ -7,11 +7,11 @@
 .home{
     padding: 0 3rem;
     color: #FFF;
-    /* min-height: calc(100vh - 375px);   */
-    height: 550px;
-    margin-top: -5rem;
+    min-height: calc(100vh - 375px);      
+    /* margin-top: -5rem; */
     position: relative;      
     background-color: rebeccapurple;
+    overflow: hidden;
 }
 .home h1{
     color: var(--primary-color);
@@ -20,9 +20,14 @@
     text-shadow: 0.1em 0em 0.152rem #ffffffea;
 }
 .main{
-    min-height: calc(100vh - 300px);
-    overflow: hidden;
+    /* min-height: calc(100vh - 500px); */
+    min-height: 400px;
+    /* overflow: hidden; */
     
+}
+.content{
+    min-height: 100px;
+    overflow: hidden;
 }
 .iconHome{
     margin-right: .3rem;
