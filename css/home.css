@@ -4,16 +4,16 @@
     100% {background-image: url('../assets/images/home/bg1.webp');}    
 }
 /* HOME */
-.body{
+.body, html{
     overflow-y: hidden;
 }
 .home{
     padding: 0 3rem;
     color: #FFF;
-    min-height: calc(100vh - 375px);   
+    /* min-height: calc(100vh - 375px);    */
     position: relative;      
     /* background-color: rebeccapurple; */
-    overflow: hidden;
+    /* overflow-y: hidden; */
 }
 .home h1{
     color: var(--primary-color);
