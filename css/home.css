@@ -4,6 +4,9 @@
     100% {background-image: url('../assets/images/home/bg1.webp');}    
 }
 /* HOME */
+.body{
+    overflow-x: hidden;
+}
 .home{
     padding: 0 3rem;
     color: #FFF;
