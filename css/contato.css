@@ -90,10 +90,10 @@
    justify-content: center;
 }
 .areaimgwhats .imgWhats{
-   width: 45px;
-   height: 45px;
+   width: 37px;
+   height: 37px;
    margin-bottom: 1rem;
-   margin-left: 8rem;
+   margin-left: 1rem;
 } 
 .areaMsg{
    position: absolute;
@@ -129,7 +129,7 @@
  } 
  @media screen and (min-width:768px){
    .areaimgwhats .imgWhats{        
-       margin-right: -16rem;
+       margin-left: 280px;
        margin-top: 2rem;
    }
 } 
