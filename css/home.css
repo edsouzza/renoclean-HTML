@@ -8,9 +8,9 @@
     /* overflow-y: hidden; */
 }
 .home{
-    padding: 0 4rem;
+    /* padding: 0 4rem; */
     color: #FFF;
-    /* min-height: calc(100vh - 375px);    */
+    min-height: calc(100vh - 175px);
     position: relative;      
     /* background-color: rebeccapurple; */
     /* overflow-y: hidden; */
