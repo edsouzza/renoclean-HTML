@@ -20,13 +20,20 @@
     font-size: 5rem;
     text-transform: uppercase;
     text-shadow: 0.1em 0em 0.152rem #ffffffea;
+    margin-bottom: 1rem;
+}
+.home h2{
+    margin-bottom: 1rem;
+}
+.home p{
+    margin-bottom: 3rem;
 }
 .iconHome{
     margin-right: .3rem;
 }
 .areaTextos{
     /* background-color: red; */
-    margin-top: -5rem;
+    margin-top: -3rem;
 }
 @media screen and (min-width:320px){
     .home h1{
