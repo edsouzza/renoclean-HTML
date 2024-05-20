@@ -8,7 +8,7 @@
     overflow-y: hidden;
 }
 .home{
-    padding: 0 3rem;
+    padding: 0 4rem;
     color: #FFF;
     /* min-height: calc(100vh - 375px);    */
     position: relative;      
@@ -20,10 +20,6 @@
     font-size: 5rem;
     text-transform: uppercase;
     text-shadow: 0.1em 0em 0.152rem #ffffffea;
-}
-.content{
-    min-height: 100px;
-    overflow: hidden;
 }
 .iconHome{
     margin-right: .3rem;
