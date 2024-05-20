@@ -5,7 +5,7 @@
 }
 /* HOME */
 .body, html{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .home{
     padding: 0 4rem;
