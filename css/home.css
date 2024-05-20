@@ -9,6 +9,7 @@
     color: #FFF;
     /* min-height: calc(100vh - 375px);   */
     height: 550px;
+    margin-top: -5rem;
     position: relative;      
     background-color: rebeccapurple;
 }
@@ -17,6 +18,9 @@
     font-size: 5rem;
     text-transform: uppercase;
     text-shadow: 0.1em 0em 0.152rem #ffffffea;
+}
+.main{
+    min-height: calc(100vh - 160px);
 }
 .iconHome{
     margin-right: .3rem;
