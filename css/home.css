@@ -7,8 +7,10 @@
 .home{
     padding: 0 3rem;
     color: #FFF;
-    min-height: calc(100vh - 375px);  
+    /* min-height: calc(100vh - 375px);   */
+    height: 600px;
     position: relative;      
+    background-color: rebeccapurple;
 }
 .home h1{
     color: var(--primary-color);
