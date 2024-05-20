@@ -21,6 +21,8 @@
 }
 .main{
     min-height: calc(100vh - 300px);
+    overflow: hidden;
+    
 }
 .iconHome{
     margin-right: .3rem;
