@@ -4,16 +4,11 @@
     100% {background-image: url('../assets/images/home/bg1.webp');}    
 }
 /* HOME */
-.body, html{
-    /* overflow-y: hidden; */
-}
 .home{
     /* padding: 0 4rem; */
     color: #FFF;
     min-height: calc(100vh - 175px);
-    position: relative;      
-    /* background-color: rebeccapurple; */
-    /* overflow-y: hidden; */
+    position: relative;   
 }
 .home h1{
     color: var(--primary-color);
@@ -32,7 +27,6 @@
     margin-right: .3rem;
 }
 .areaTextos{
-    /* background-color: red; */
     margin-top: -3rem;
 }
 @media screen and (min-width:320px){
