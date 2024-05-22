@@ -42,6 +42,15 @@
     color: var(--white);
     margin-bottom: .5rem;
  }
+ .bi-facebook:hover{
+   color: var(--primary-color);
+ }
+ .bi-telephone:hover{
+   color: var(--primary-color);
+ }
+ .bi-envelope:hover{
+   color: var(--primary-color);
+ }
  .bi-telephone{
     margin-top: -.5rem;
     margin-bottom: .5rem;
@@ -79,37 +88,42 @@
  .copyright{
    margin-top: -.4rem;
  }
- .areaimgwhats{
-   position: absolute;
-   bottom: 3rem;
-   right: 188px;
-   width: 70px;
-   height: 70px;
+
+/* .zap {
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
-}
-.areaimgwhats .imgWhats{
-   width: 37px;
-   height: 37px;
-   margin-bottom: 1rem;
-   margin-left: 1rem;
-} 
-.areaMsg{
+
    position: absolute;
-   bottom: 8rem;
-   right: 9.6rem;
-   padding: .3rem;
-   font-size: .7rem;
-   color: #ffffffe2;
-   background-color: #63636338;   
-   display: none;
+   right: 0;
+   margin-top: -2rem;
+   background-color: transparent;
+} */
+
+.tel{
+   position: relative;
 }
- @media (min-width:400px) {
-    
+
+.imgWhats {
+   position: absolute;
+   display: block;
+   width:  20px;
+   height: 20px;
+   margin-top: -30px;
+   margin-left: -15px;
+}
+ 
+@media (min-width:400px) {    
     .areaimgwhats .imgWhats{        
       margin-left: 360px;      
-  }
+    }
+    .imgWhats {    
+      width:  25px;
+      height: 25px;
+      margin-top: -10px;
+      margin-left: 80px;
+   }
  } 
  @media (min-width:580px) {
     .textos-contato{
@@ -134,12 +148,26 @@
     }
     .areaimgwhats .imgWhats{        
       margin-left: 480px;      
-  }
+   }
+    .imgWhats {    
+      width:  30px;
+      height: 30px;
+      margin-top: -16px;
+      margin-left: 115px;
+   }
  } 
  @media screen and (min-width:768px){
    .areaimgwhats .imgWhats{        
        margin-left: 280px;
        margin-top: 2rem;
+   }  
+} 
+ @media screen and (min-width:800px){   
+   .imgWhats {    
+      width:  30px;
+      height: 30px;
+      margin-top: -15px;
+      margin-left: 280px;
    }
 } 
  @media (min-width:1000px) {
@@ -152,7 +180,11 @@
     }    
     .imglogocontato{
         margin-left: -4rem;
-    }      
+    }   
+   .imgWhats {    
+      margin-top: -15px;
+      margin-left: 80px;
+   }   
  }
  @media (min-width:1020px) {
     .area-cards-contato{       
@@ -167,6 +199,7 @@
     .txtdesenv{
         font-size: .9rem !important;        
     }
+   
  }
  @media (max-width:1300px) {   
     .imglogocontato{
@@ -191,5 +224,9 @@
     .areaimgwhats .imgWhats{        
       margin-left: -8rem;
     }      
+    .imgWhats {    
+      margin-top: -15px;
+      margin-left: 220px;
+   }   
  }
 /* FIM CONTATO */
