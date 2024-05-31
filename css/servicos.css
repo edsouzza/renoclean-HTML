@@ -39,6 +39,17 @@
     color: var(--primary-color);
     text-shadow: 0.1em 0em 0.152rem #ffffffea;
 }
+.modal-footer{
+    /* background-color: rgb(193, 196, 89); */
+    padding: 0;
+    margin: 0;
+}
+.modal-footer p{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 1rem;
+    
+}
 @media screen and (max-width:991px){
     .imglogoservicos{
         margin-left: -1rem;
