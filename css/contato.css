@@ -42,7 +42,8 @@
     color: var(--white);
     margin-bottom: .5rem;
  }
- .bi-facebook:hover{
+ .bi-facebook:hover,
+ .bi-instagram:hover{
    color: var(--primary-color);
  }
  .bi-telephone:hover{
